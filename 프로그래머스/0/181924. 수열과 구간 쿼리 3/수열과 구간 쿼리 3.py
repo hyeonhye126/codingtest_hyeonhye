@@ -1,9 +1,9 @@
 def solution(arr, queries):
     answer = []
     
-    for li in queries:
-        i = li[0]
-        j = li[1]
+    for query in queries:
+        i = query[0]
+        j = query[1]
 
         tmp = arr[i]
         arr[i] = arr[j]
