@@ -1,10 +1,8 @@
 def solution(num_list):
-    cnt1 = 0
-    cnt2 = 0
+    even, odd = 0, 0
     for n in num_list:
         if n % 2 == 0: 
-            cnt1 += 1
+            even += 1
         else:
-            cnt2 += 1
-    answer = [cnt1, cnt2]
-    return answer
+            odd += 1
+    return [even, odd]
