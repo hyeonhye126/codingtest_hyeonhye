@@ -1,10 +1,3 @@
 def solution(rsp):
-    answer = ''
-    for c in rsp:
-        if c == '2':
-            answer += '0'
-        elif c == '0':
-            answer += '5'
-        else:
-            answer += '2'
-    return answer
+    rsp_list = {'2':'0', '0':'5', '5':'2'}
+    return ''.join(rsp_list[i] for i in rsp)
