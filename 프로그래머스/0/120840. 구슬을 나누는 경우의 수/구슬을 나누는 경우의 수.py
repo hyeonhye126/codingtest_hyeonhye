@@ -1,8 +1,6 @@
-from math import prod
-
-def factorial(share):
-    return prod(range(1, share + 1))
+import math 
 
 def solution(balls, share):
-    answer = factorial(balls) / (factorial(balls - share) * factorial(share))
+    answer = math.factorial(balls) / (math.factorial(balls - share) * math.factorial(share))
+    # math.comb(balls, share)
     return answer
