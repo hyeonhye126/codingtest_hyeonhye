@@ -2,8 +2,8 @@ import math
 
 def solution(n):
     i = 2
-    while(1):
+    while True:
         if math.factorial(i) > n:
-            break
+             break
         i += 1
     return i - 1
