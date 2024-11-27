@@ -1,9 +1,8 @@
 def solution(s):
-    l = s.split(' ')
-    l2 = []
-    for c in l:
+    num_list = []
+    for c in s.split():
         if c == 'Z':
-            l2.pop(-1)
+            num_list.pop(-1)
         else:
-            l2.append(int(c))
-    return sum(l2)
+            num_list.append(int(c))
+    return sum(num_list)
