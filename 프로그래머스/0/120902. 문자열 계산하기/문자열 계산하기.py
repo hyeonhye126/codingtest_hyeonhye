@@ -11,4 +11,5 @@ def solution(my_string):
             answer += number
         else:
             answer -= number
+        
     return answer
