@@ -1,6 +1,2 @@
 def solution(array, height):
-    cnt = 0
-    for i in range(len(array)):
-        if array[i] > height:
-            cnt += 1
-    return cnt
+    return sum(h > height for h in array)
