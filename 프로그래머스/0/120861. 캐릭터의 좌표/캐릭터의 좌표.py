@@ -16,6 +16,5 @@ def solution(keyinput, board):
                 position[1] -= 1
         else:
             if position[1] < max_y:
-                position[1] += 1
-    
+                position[1] += 1   
     return position
