@@ -1,7 +1,6 @@
 import sys
 input = sys.stdin.readline
 
-arr = []
 for _ in range(3):
     N = int(input())
     flag = sum(int(input()) for _ in range(N))
