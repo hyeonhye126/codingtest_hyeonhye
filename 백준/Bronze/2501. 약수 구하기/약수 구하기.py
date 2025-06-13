@@ -7,8 +7,6 @@ for i in range (1, N + 1):
         count += 1
         if count == K:
             print(i)
-            flag = 1
             break
-
 else:
     print(0)
